@@ -14,7 +14,7 @@
 <body>
 
     <nav class="navbar">
-        <a href="/" class="brand">Brew &amp; Bean</a>
+        <a href="/" class="brand">Kape Karon</a>
         <ul class="nav-links">
             <li><a href="/" class="{{ request()->is('/') ? 'active' : '' }}">Home</a></li>
             <li><a href="/about" class="{{ request()->is('about') ? 'active' : '' }}">About</a></li>
@@ -27,7 +27,7 @@
     </main>
 
     <footer class="footer">
-        <p>&copy; {{ date('Y') }} Brew &amp; Bean Café</p>
+        <p>&copy; {{ date('Y') }} Kape Karon</p>
         <p>Made by: Jundy Tautjo, Mirai Sato, Gio Setarios</p>
     </footer>
 
