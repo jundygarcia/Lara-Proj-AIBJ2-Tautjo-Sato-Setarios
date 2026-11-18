@@ -33,6 +33,23 @@
 
         <button id="read-more-btn" class="read-more-btn" type="button">Read More</button>
     </section>
+
+        <section class="mv-section">
+        <div class="mv-card">
+            <h3>Our Mission</h3>
+            <p>
+                To serve fresh, locally sourced coffee and pastries in a warm,
+                welcoming space, while supporting local farmers and our community.
+            </p>
+        </div>
+        <div class="mv-card">
+            <h3>Our Vision</h3>
+            <p>
+                To be Butuan's most loved neighborhood café, where every visit
+                feels like coming home.
+            </p>
+        </div>
+    </section>
 @endsection
 
 @push('scripts')

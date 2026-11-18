@@ -25,3 +25,16 @@
     margin-top: 8px;
 }
 .read-more-btn:hover { background: #a86f2e; }
+
+/* Mission and Vision */
+.mv-section {
+    max-width: 1000px; margin: 0 auto; padding: 0 24px 56px;
+    display: flex; gap: 24px; flex-wrap: wrap;
+}
+.mv-card {
+    flex: 1; min-width: 260px; padding: 28px; text-align: center;
+    background: #fff; border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+.mv-card h3 { margin-bottom: 8px; color: #c8873a; font-size: 1.4rem; }
+.mv-card p { line-height: 1.7; }
