@@ -1,0 +1,11 @@
+/* About page - created by Mirai Sato */
+
+/* Hero */
+.about-hero {
+    background: #5a3e2b;
+    color: #f5e6d3;
+    text-align: center;
+    padding: 70px 24px;
+}
+.about-hero h1 { font-size: 3rem; margin-bottom: 12px; }
+.about-hero p { font-size: 1.2rem; }
