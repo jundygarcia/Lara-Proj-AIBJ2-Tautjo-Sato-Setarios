@@ -114,4 +114,54 @@
     outline-offset: 3px;
 }
 
-/* Details styles - Gio Setarios */
+/* Details styles - created by Gio Setarios */
+.contact-details {
+    align-self: start;
+    background: #f5e6d3;
+}
+
+.detail-item {
+    padding: 18px 0;
+    border-top: 1px solid #dfcbb9;
+}
+
+.detail-item h3 {
+    margin-bottom: 7px;
+    color: #6b4226;
+    font-size: 1rem;
+}
+
+.detail-item p {
+    color: #4b3427;
+    line-height: 1.6;
+}
+
+.detail-item a {
+    color: #5a3825;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 3px;
+}
+
+.detail-item a:hover {
+    color: #8b5a3c;
+}
+
+@media (min-width: 769px) {
+    .contact-grid {
+        grid-template-columns: minmax(0, 1.35fr) minmax(280px, 0.85fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .contact-page {
+        padding: 40px 18px 52px;
+    }
+
+    .contact-heading h1 {
+        font-size: 2rem;
+    }
+
+    .contact-card {
+        padding: 24px;
+    }
+}

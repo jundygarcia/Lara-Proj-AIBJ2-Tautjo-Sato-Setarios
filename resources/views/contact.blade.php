@@ -43,6 +43,28 @@
                     <button class="contact-submit" type="submit">Send message</button>
                 </form>
             </section>
+
+            {{-- Contact details - created by Gio Setarios --}}
+            <aside class="contact-card contact-details" aria-labelledby="contact-details-heading">
+                <h2 id="contact-details-heading">Visit or call us</h2>
+                <div class="detail-item">
+                    <h3>Address</h3>
+                    <p>J.C. Aquino Avenue, Butuan City, Agusan del Norte, Philippines</p>
+                </div>
+                <div class="detail-item">
+                    <h3>Phone</h3>
+                    <p><a href="tel:+63855551234">+63 85 555 1234</a></p>
+                </div>
+                <div class="detail-item">
+                    <h3>Email</h3>
+                    <p><a href="mailto:hello@kapekaron.com">hello@kapekaron.com</a></p>
+                </div>
+                <div class="detail-item">
+                    <h3>Opening hours</h3>
+                    <p>Monday - Saturday: 7:00 AM - 8:00 PM</p>
+                    <p>Sunday: 8:00 AM - 6:00 PM</p>
+                </div>
+            </aside>
         </div>
     </section>
 @endsection
