@@ -50,6 +50,27 @@
             </p>
         </div>
     </section>
+
+        <section class="team-section">
+        <h2>Meet Our Team</h2>
+        <div class="team-grid">
+            <div class="team-card">
+                <div class="avatar">JT</div>
+                <h3>Jundy Tautjo</h3>
+                <p>Founder &amp; Head Barista</p>
+            </div>
+            <div class="team-card">
+                <div class="avatar">MS</div>
+                <h3>Mirai Sato</h3>
+                <p>Café Manager</p>
+            </div>
+            <div class="team-card">
+                <div class="avatar">GS</div>
+                <h3>Gio Setarios</h3>
+                <p>Pastry Chef</p>
+            </div>
+        </div>
+    </section>
 @endsection
 
 @push('scripts')
