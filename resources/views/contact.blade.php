@@ -15,6 +15,9 @@
             {{-- Contact form - created by Gio Setarios --}}
             <section class="contact-card contact-form-card" aria-labelledby="contact-form-heading">
                 <h2 id="contact-form-heading">Send us a message</h2>
+                <div id="success-message" class="success-message" role="status" aria-live="polite" hidden>
+                    Thank you for reaching out! Your message has been received.
+                </div>
                 <form id="contact-form" class="contact-form" novalidate>
                     <div class="form-field">
                         <label for="name">Name</label>
