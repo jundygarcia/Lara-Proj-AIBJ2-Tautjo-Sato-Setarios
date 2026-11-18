@@ -1,0 +1,28 @@
+/* Contact page - created by Gio Setarios */
+
+/* Contact page foundation */
+.contact-page {
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 56px 24px 72px;
+}
+
+.contact-heading {
+    margin-bottom: 32px;
+    text-align: center;
+}
+
+.contact-heading h1 {
+    margin-bottom: 10px;
+    color: #5a3825;
+    font-size: 2.4rem;
+}
+
+.contact-heading p {
+    color: #6b4226;
+    font-size: 1.05rem;
+}
+
+/* Form styles - Gio Setarios */
+
+/* Details styles - Gio Setarios */
