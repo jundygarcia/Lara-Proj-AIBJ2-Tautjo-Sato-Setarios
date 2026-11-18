@@ -1,0 +1,181 @@
+/* Contact page - created by Gio Setarios */
+
+/* Contact page foundation */
+.contact-page {
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 56px 24px 72px;
+}
+
+.contact-heading {
+    margin-bottom: 32px;
+    text-align: center;
+}
+
+.contact-heading h1 {
+    margin-bottom: 10px;
+    color: #5a3825;
+    font-size: 2.4rem;
+}
+
+.contact-heading p {
+    color: #6b4226;
+    font-size: 1.05rem;
+}
+
+/* Form styles - created by Gio Setarios */
+.contact-grid {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 28px;
+}
+
+.contact-card {
+    padding: 32px;
+    border: 1px solid #eadfd4;
+    border-radius: 12px;
+    background: #fff;
+    box-shadow: 0 8px 24px rgba(59, 42, 32, 0.08);
+}
+
+.contact-card h2 {
+    margin-bottom: 24px;
+    color: #5a3825;
+    font-size: 1.5rem;
+}
+
+.contact-form {
+    display: grid;
+    gap: 18px;
+}
+
+.success-message {
+    margin-bottom: 20px;
+    padding: 14px 16px;
+    border: 1px solid #8abb91;
+    border-radius: 6px;
+    background: #e8f5e9;
+    color: #236331;
+    line-height: 1.5;
+}
+
+.success-message[hidden] {
+    display: none;
+}
+
+.form-field {
+    display: grid;
+    gap: 8px;
+}
+
+.form-field label {
+    color: #4b3427;
+    font-weight: 700;
+}
+
+.form-field input,
+.form-field textarea {
+    width: 100%;
+    padding: 12px 14px;
+    border: 1px solid #cdb9a8;
+    border-radius: 6px;
+    background: #fffdfa;
+    color: #3b2a20;
+    font: inherit;
+}
+
+.form-field textarea {
+    min-height: 150px;
+    resize: vertical;
+}
+
+.form-field input:focus,
+.form-field textarea:focus {
+    border-color: #8b5a3c;
+    outline: 3px solid rgba(139, 90, 60, 0.18);
+}
+
+.form-field .has-error {
+    border-color: #b42318;
+}
+
+.error-message {
+    min-height: 1.1em;
+    color: #b42318;
+    font-size: 0.9rem;
+}
+
+.contact-submit {
+    justify-self: start;
+    padding: 12px 22px;
+    border: 0;
+    border-radius: 6px;
+    background: #6b4226;
+    color: #fff;
+    cursor: pointer;
+    font: inherit;
+    font-weight: 700;
+    transition: background-color 160ms ease, transform 160ms ease;
+}
+
+.contact-submit:hover {
+    background: #5a3825;
+    transform: translateY(-1px);
+}
+
+.contact-submit:focus-visible {
+    outline: 3px solid #c8873a;
+    outline-offset: 3px;
+}
+
+/* Details styles - created by Gio Setarios */
+.contact-details {
+    align-self: start;
+    background: #f5e6d3;
+}
+
+.detail-item {
+    padding: 18px 0;
+    border-top: 1px solid #dfcbb9;
+}
+
+.detail-item h3 {
+    margin-bottom: 7px;
+    color: #6b4226;
+    font-size: 1rem;
+}
+
+.detail-item p {
+    color: #4b3427;
+    line-height: 1.6;
+}
+
+.detail-item a {
+    color: #5a3825;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 3px;
+}
+
+.detail-item a:hover {
+    color: #8b5a3c;
+}
+
+@media (min-width: 769px) {
+    .contact-grid {
+        grid-template-columns: minmax(0, 1.35fr) minmax(280px, 0.85fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .contact-page {
+        padding: 40px 18px 52px;
+    }
+
+    .contact-heading h1 {
+        font-size: 2rem;
+    }
+
+    .contact-card {
+        padding: 24px;
+    }
+}
